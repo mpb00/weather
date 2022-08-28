@@ -1,8 +1,4 @@
 import requests as re
-import json
-class read_data(object):
-  def __init__(self, jdata):
-    self.__dict__ = json.loads(jdata)
     
 city = input("Enter city name:")
 key = '' #api key
